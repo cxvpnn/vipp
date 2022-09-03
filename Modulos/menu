@@ -484,7 +484,7 @@ case "$x" in
    ;;
    19)
    clear
-   badpro
+   badvpn
    ;;
    20)
    clear

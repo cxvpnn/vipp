@@ -142,8 +142,8 @@ echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m $_key_\033[0m" ; rm $_Ink/list > 
         echo -e "\033[1;31m════════════════════════════════════════════════════════════\033[0m"
         echo -e "   \033[1;33mLOCALIZADO NA PASTA \033[1;32m(usuarios.db)"
         echo ""
-        echo -e "   [\033[1;36m1\033[1;31m] \033[1;36m• \033[1;33mMANTER DADOS ATUAL\033[0m"
-        echo -e "   [\033[1;36m2\033[1;31m] \033[1;36m• \033[1;33mCRIAR UMA NOVA BASE DE DADOS\033[0m"
+        echo -e "   \033[1;31m[1\033[1;31m] \033[1;36m• \033[1;33mMANTER DADOS ATUAL\033[0m"
+        echo -e "   \033[1;36m[2\033[1;31m] \033[1;36m• \033[1;33mCRIAR UMA NOVA BASE DE DADOS\033[0m"
         echo -e "\033[1;31m════════════════════════════════════════════════════════════\033[0m"
         echo ""
         tput setaf 2

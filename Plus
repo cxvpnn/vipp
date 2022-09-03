@@ -106,7 +106,7 @@ echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m $_key_\033[0m" ; rm $_Ink/list > 
     sleep 3s
     echo "/bin/menu" >/bin/h && chmod +x /bin/h >/dev/null 2>&1
     rm versao* >/dev/null 2>&1
-    wget https://raw.githubusercontent.com/cxvpnn/vipp/main/instalador/versao >/dev/null 2>&1
+    wget https://raw.githubusercontent.com/cxvpnn/vipp/main/versao >/dev/null 2>&1
     rm v2raymanager >/dev/null 2>&1
     wget https://raw.githubusercontent.com/cxvpnn/vipp/main/modulos/v2raymanager >/dev/null 2>&1
     wget https://raw.githubusercontent.com/cxvpnn/vipp/main/modulos/botteste.sh >/dev/null 2>&1

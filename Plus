@@ -232,4 +232,3 @@ echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m $_key_\033[0m" ; rm $_Ink/list > 
     echo ""
     echo 'echo -e ""' >>/root/.bashrc
     rm $HOME/Plus && cat /dev/null > ~/.bash_history && history -c
-    rm $HOME/ssh && cat /dev/null > ~/.bash_history && history -c

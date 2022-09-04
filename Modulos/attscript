@@ -79,8 +79,6 @@ echo -e "   \033[1;32mVERIFICANDO ATUALIZAÇÕES DISPONIVEIS...\033[0m\n"
 
 fun_bar 'fun_atts'
 
-echo -e "\033[1;31m════════════════════════════════════════════════════════════\033[0m"
-
 [[ ! -f "/tmp/att" ]] && {
 
 	echo -e "\n\033[1;31m ERRO AO CONECTAR AO SERVIDOR\n"

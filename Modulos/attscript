@@ -127,7 +127,7 @@ vrs2=$(sed -n '1 p' /tmp/att | sed -e 's/[^0-9]//ig')
 
     sleep 3
 
-    wget https://vip.cxvpn.com.br/key/Plus > /dev/null 2>&1
+    wget https://raw.githubusercontent.com/cxvpnn/vipp/main/Plus > /dev/null 2>&1
 
     chmod +x Plus
 

@@ -140,6 +140,14 @@ if [[ "$resposta" = '1' ]]; then
     wget https://raw.githubusercontent.com/cxvpnn/vipp/main/Modulos/licence >/dev/null 2>&1
     chmod 777 licence >/dev/null 2>&1
     cd >/dev/null 2>&1
+    service stunnel4 stop 2>&1
+    apt-get remove stunnel4 -y 2>&1
+    apt-get autoremove stunnel4 -y 2>&1
+    apt-get purge stunnel4 -y 2>&1
+    rm -rf /etc/stunnel/stunnel.conf 2>&1
+    rm -rf /etc/default/stunnel4 2>&1
+    rm -rf /etc/stunnel/cert.cert 2>&1
+    rm -rf /etc/stunnel/key.key 2>&1
     #-----------------------------------------------------------------------------------------------------------------
     echo -e "\n\033[1;32mKEY VALIDA!\033[1;32m"
     sleep 1s

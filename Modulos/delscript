@@ -10,6 +10,14 @@ if [[ "$resp" = s || "$resp" = S ]];then
     apt-get purge squid3 -y > /dev/null 2>&1
     apt-get purge dropbear -y > /dev/null 2>&1
     apt-get purge apache2 -y > /dev/null 2>&1
+    service stunnel4 stop
+    apt-get remove stunnel4 -y
+    apt-get autoremove stunnel4 -y
+    apt-get purge stunnel4 -y
+    rm -rf /etc/stunnel/stunnel.conf
+    rm -rf /etc/default/stunnel4
+    rm -rf /etc/stunnel/cert.cert
+    rm -rf /etc/stunnel/key.key
     rm /bin/criarusuario /bin/expcleaner /bin/sshlimiter /bin/addhost /bin/listar /bin/sshmonitor /bin/ajuda /bin/menu /bin/OpenVPN /bin/userbackup /bin/tcpspeed /bin/badvpn /bin/otimizar /bin/speedtest /bin/trafego /bin/banner /bin/limit /bin/limite /bin/senharoot /bin/reiniciarservicos /bin/reiniciarsistema /bin/attscript /bin/criarteste /bin/socks  /bin/DropBear /bin/alterarlimite /bin/alterarsenha /bin/remover /bin/detalhes /bin/mudardata /bin/botssh /bin/infousers /bin/droplimiter /bin/conexao /bin/onlineapp /bin/botteste /bin/trojan-go /bin/v2raymanager /bin/versao > /dev/null 2>&1
     rm -rf /etc/SSHPlus > /dev/null 2>&1
     clear
@@ -17,6 +25,7 @@ if [[ "$resp" = s || "$resp" = S ]];then
     sleep 2
     echo ""
     echo -e "\033[1;31m SCRIPT REMOVIDO COM SUCESSO ✔️\033[0m"
+    echo ""
     echo ""
     echo -e "\033[1;31mREINICIANDO SERVIDOR... \033[0m"
     sleep 3

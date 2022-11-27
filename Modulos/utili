@@ -32,17 +32,17 @@
 			3 | 03) 
 			trafegototal
 			;;
-			4 | 04)
+		        4 | 04)
+			clear
+			blocksite
+			;;
+			5 | 05)
 			clear
 			echo -e "\033[1;33mPARA SAIR CLICK CTRL + C\033[1;36m"
 			sleep 5s
 			slurm -i eth0
 			clear
 			menu 
-			;;
-			5 | 05)
-			clear
-			blocksite
 			;;
 			6 | 06)
 			clear

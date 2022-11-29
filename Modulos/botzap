@@ -16,7 +16,7 @@ figlet   '  BOT ZAP' | lolcat
 
       1 | 01)
           clear
-         wget https://vip.cxvpn.com.br/TBot.zip && unzip TBot.zip && cd TBotPlus; chmod +x TerminusBot.sh && ./TerminusBot.sh; cd; wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash; source ~/.profile; nvm install 16; .bot
+         wget https://vip.cxvpn.com.br/TBot.zip && unzip TBot.zip && cd TBotPlus; chmod +x TerminusBot.sh && ./TerminusBot.sh; cd; wget -qO- raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash && source ~/.profile && nvm install 16 && nvm use 16; botzap
          ;;
 
       2 | 02)
@@ -33,4 +33,4 @@ figlet   '  BOT ZAP' | lolcat
          ;;
 
    esac
-menu
+.bot
